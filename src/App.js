@@ -1,5 +1,6 @@
 import "./App.css";
 import Categorias from "./components/Categorias/Categorias";
+import Eventos from "./components/Eventos/Eventos";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Main />
       <Categorias />
+      <Eventos />
     </div>
   );
 }

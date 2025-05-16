@@ -1,0 +1,62 @@
+.div__salida {
+    background-color: #170b3a;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.salida__imagen {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.salida__texto {
+    padding: 2rem 2rem;
+    line-height: .8;
+}
+
+.salida__titulo {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0;
+}
+
+.salida__categoria {
+    color: #a8a7aa;
+    font-weight: lighter;
+}
+
+.salida__calificacion {
+    color: #ffd710;
+}
+
+.salida__precio {
+    color: #FFFFFF;
+}
+
+.salida__vermas {
+    background-color: #7934db;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.salida__vermas:hover {
+    background-color: #5e28aa;
+}
+
+.salida__calificacion {
+    color: #ffd710;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.estrella {
+    width: 1.5rem;
+    height: 1.5rem;
+}
