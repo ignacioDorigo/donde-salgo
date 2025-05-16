@@ -4,7 +4,7 @@ import Categoria from "../Categoria/Categoria";
 
 export default function Categorias() {
   const categorias = [
-    { nombre: "Lo más elegido", imagen: "/categorias/categoria1.webp" },
+    { nombre: "Lo más elegido hoy", imagen: "/categorias/categoria1.webp" },
     { nombre: "Novedades", imagen: "/categorias/categoria2.webp" },
     { nombre: "Eventos gratis", imagen: "/categorias/categoria3.webp" },
   ];

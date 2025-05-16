@@ -3,6 +3,8 @@
     /* padding: 1rem; */
     border-radius: 10px;
     overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+
 }
 
 .salida__imagen {
@@ -59,4 +61,9 @@
 .estrella {
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.div__salida:hover {
+    box-shadow: 0 0 20px 5px rgba(121, 52, 219, 0.6);
+    /* violetita suave */
 }
