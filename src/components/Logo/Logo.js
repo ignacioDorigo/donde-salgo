@@ -4,7 +4,7 @@ import "./Logo.css";
 export default function Logo() {
   return (
     <div className="logo">
-      <img className="logo__img" src="logo.png" alt="Logo donde salgo" title="Logo Donde Salgo" />
+      <img className="logo__img" src="logoF.png" alt="Logo donde salgo" title="Logo Donde Salgo" />
     </div>
   );
 }
