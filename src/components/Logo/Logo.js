@@ -4,7 +4,13 @@ import "./Logo.css";
 export default function Logo() {
   return (
     <div className="logo">
-      <img className="logo__img" src="logoF.png" alt="Logo donde salgo" title="Logo Donde Salgo"  />
+      <img
+        className="logo__img"
+        src="logoF.png"
+        alt="Logo donde salgo"
+        title="Logo Donde Salgo"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      />
     </div>
   );
 }
